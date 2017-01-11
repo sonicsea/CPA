@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="CPA.Layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/superfish/superfish.js"></script>
+	<script type="text/javascript" src="js/superfish/hoverIntent.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/superfish/superfish.css" rel="stylesheet" media="screen" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="page-header">
+			<div id="logo">
+				<asp:Image runat="server" ID="imgBanner" ImageUrl="~/images/logo.png" />
+			</div>
+			<div id="menu">
+				<div class="content-wrapper">
+					<a class="contact phone" href="tel:(732)503-9210?responsive=true"><asp:Image runat="server" ID="Image1" ImageUrl="~/images/phone.ico" width="15" height="15" CssClass="contact-icon"/>(732)503-9210</a>
+                    <a class="contact email" href="mailto:info@scaicpa.com?responsive=true"><asp:Image runat="server" ID="Image2" ImageUrl="~/images/email.ico" width="15" height="15" CssClass="contact-icon" />info@scaicpa.com</a>
+                    <br /><br />
+				    <ul id="nav-menu" class="sf-menu">
+					    <li class="current">
+						    <a href="/">Home</a>								
+					    </li>
+					    <li>
+						    <a href="#">Individual Services</a>  
+                            <ul>
+							    <li>
+								    <a href="Individual">Tax Preparation and Planning</a>
+							    </li>
+							    <li>
+								    <a href="Resolution">Tax Problems Resolution</a>										
+							    </li>									
+						    </ul>                          
+					    </li>
+                        <li>
+                            <a href="Business">Business Services</a>
+                        </li>
+                        <li>
+						    <a href="News">News</a>								
+					    </li>
+					    <li>
+						    <a href="#">Resources</a>
+                            <ul>
+							    <li>
+								    <a href="Forms">Forms and Pubs</a>
+							    </li>
+							    <li>
+								    <a href="EBooks">Recommanded eBooks</a>										
+							    </li>									
+						    </ul>		
+					    </li>
+					    <li>
+						    <a href="Contact">Contact Us</a>
+					    </li> 
+				    </ul>
+                </div>
+            
+			</div>
+		</div>
+
+    <form id="form1" runat="server" class="main-content">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div class="page-footer">
+        <hr>
+	    Shannon Cai CPA Firm | 379 Potomac Dr. Basking Ridge, NJ 07920 | Phone: (732)503-9210 | <a href="mailto:info@scaicpa.com">info@scaicpa.com</a>
+        <br /><br />
+        <a href="Sitemap" class="footer-link">Sitemap</a>
+        <a href="Disclaimer" class="footer-link">Disclamer</a>
+        <a href="Privacy" class="footer-link">Privacy Policy</a>
+        <br /><br />
+        © 2017 Shannon Cai CPA Firm. All Rights Reserved.
+    </div>
+</body>
+</html>

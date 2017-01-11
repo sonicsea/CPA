@@ -1,0 +1,143 @@
+﻿body {    
+    margin-left:auto;
+    margin-right:auto;
+    width:1024px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #333;
+}
+
+div.left-content{
+    float:left;
+    width:60%;
+}
+
+#home-news ul, #home-topics ul{
+    width:280px;
+}
+
+
+#home-topics ul{
+    list-style: none;
+}
+
+#home-news ul li, #home-topics ul li, #home-forms ul li{
+    padding-bottom:10px;    
+}
+
+#home-topics ul li a, #home-forms ul li a{
+    padding-left:5px;    
+}
+
+#home-topics ul li:before {
+    content: ">";
+    color: red; 
+}
+
+#home-forms ul{
+    list-style: none;
+    width:100px;
+}
+
+#home-forms ul li:before {
+    content: ">";
+    color: red;
+    
+}
+
+div.page-header{
+	/*width:1105px;*/	
+	margin-left:auto;
+	margin-right:auto;
+	/*overflow:auto;*/
+}
+
+div.right-content{
+    float: left;
+    padding-left: 78px;
+    padding-top: 30px;
+}
+
+div#logo{
+	float:left;
+	width:30%;
+	display:inline-block;
+}
+
+#menu{
+	float:right;
+	display:inline-block;
+	padding-top:60px;
+}
+
+
+.content-wrapper{
+	float:right;
+	/*padding-bottom:20px;*/
+    /*text-align:right;*/
+}
+
+.contact-icon{
+	margin-bottom:-3px;
+	padding-right:5px;    
+}
+
+
+#nav-menu{
+    margin-bottom:0;
+}
+
+.main-content, div.page-footer{
+	width:1024px;
+	overflow:auto;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-x:hidden;
+}
+
+div.page-footer{
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+
+/*a.contact{
+    float:right;
+    text-align:right;
+}*/
+
+a{
+    color:#22838C;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+}
+
+.read-more{
+    text-decoration: none;
+    color: white !important;
+    background-color: #7DC3CA;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin-top: 5px;
+    border: none;
+    font-size: 0.9em;
+    float:right;
+}
+
+div.center{
+    width: 50%;
+    margin: 0 auto; 
+}
+
+span.require-field{
+    color:red;
+}
+
+a.footer-link{
+    padding-right:10px;
+}
