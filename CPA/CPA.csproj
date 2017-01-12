@@ -141,6 +141,7 @@
     <Content Include="images\individual-banner.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\news-banner.jpg" />
+    <Content Include="images\oops.png" />
     <Content Include="images\phone.ico" />
     <Content Include="images\resolution-banner.jpg" />
     <Content Include="Individual.aspx" />
