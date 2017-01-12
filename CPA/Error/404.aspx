@@ -5,5 +5,5 @@
 
     <h1>Page Not Found</h1>
     <p>The page you requestd could not be found</p>
-
+    <p><a href="/">Return to home page</a></p>
 </asp:Content>

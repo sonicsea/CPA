@@ -17,12 +17,12 @@
 <body>
     <div class="page-header">
 			<div id="logo">
-				<asp:Image runat="server" ID="imgBanner" ImageUrl="~/images/logo.png" />
+				<a href="/"><asp:Image runat="server" ID="imgBanner" ImageUrl="~/images/logo.png" /></a>
 			</div>
 			<div id="menu">
 				<div class="content-wrapper">
-					<a class="contact phone" href="tel:(732)503-9210?responsive=true"><asp:Image runat="server" ID="Image1" ImageUrl="~/images/phone.ico" width="15" height="15" CssClass="contact-icon"/>(732)503-9210</a>
-                    <a class="contact email" href="mailto:info@scaicpa.com?responsive=true"><asp:Image runat="server" ID="Image2" ImageUrl="~/images/email.ico" width="15" height="15" CssClass="contact-icon" />info@scaicpa.com</a>
+					<a class="contact phone" href="tel:(732)503-9210?responsive=true"><asp:Image runat="server" ID="Image1" ImageUrl="~/images/phone.ico" width="30" height="30" CssClass="contact-icon"/>(732)503-9210</a>
+                    <a class="contact email" href="mailto:info@scaicpa.com?responsive=true"><asp:Image runat="server" ID="Image2" ImageUrl="~/images/email.ico" width="30" height="30" CssClass="contact-icon" />info@scaicpa.com</a>
                     <br /><br />
 				    <ul id="nav-menu" class="sf-menu">
 					    <li class="current">

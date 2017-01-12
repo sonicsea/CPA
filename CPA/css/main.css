@@ -68,7 +68,7 @@ div#logo{
 #menu{
 	float:right;
 	display:inline-block;
-	padding-top:60px;
+	/*padding-top:60px;*/
 }
 
 
@@ -140,4 +140,15 @@ span.require-field{
 
 a.footer-link{
     padding-right:10px;
+}
+
+a.contact{
+    font-size:18pt; 
+    float:right; 
+    text-align:right; 
+    padding-left:5px;
+}
+
+h1,h2,h3{
+    color:#4586A5;
 }

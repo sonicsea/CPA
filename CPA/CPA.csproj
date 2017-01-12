@@ -142,6 +142,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\news-banner.jpg" />
     <Content Include="images\phone.ico" />
+    <Content Include="images\resolution-banner.jpg" />
     <Content Include="Individual.aspx" />
     <Content Include="js\jquery-3.1.1.min.js" />
     <Content Include="js\main.js" />
