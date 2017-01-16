@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Privacy.aspx.cs" Inherits="CPA.Privacy" %>
+﻿<%@ Page Title="Privacy Policy" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Privacy.aspx.cs" Inherits="CPA.Privacy" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

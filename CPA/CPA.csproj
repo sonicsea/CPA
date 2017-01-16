@@ -137,6 +137,7 @@
     <Content Include="images\button_news.png" />
     <Content Include="images\contact-banner.jpg" />
     <Content Include="images\email.ico" />
+    <Content Include="images\fav.ico" />
     <Content Include="images\home-banner.jpg" />
     <Content Include="images\individual-banner.jpg" />
     <Content Include="images\logo.png" />
@@ -288,6 +289,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images\fav.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

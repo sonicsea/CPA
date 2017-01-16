@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Disclaimer.aspx.cs" Inherits="CPA.Disclaimer" %>
+﻿<%@ Page Title="Disclaimer" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Disclaimer.aspx.cs" Inherits="CPA.Disclaimer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Resolution.aspx.cs" Inherits="CPA.Resolution" %>
+﻿<%@ Page Title="Tax Problem Resolution" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="Resolution.aspx.cs" Inherits="CPA.Resolution" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
