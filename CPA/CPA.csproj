@@ -138,6 +138,7 @@
     <Content Include="images\contact-banner.jpg" />
     <Content Include="images\email.ico" />
     <Content Include="images\fav.ico" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\home-banner.jpg" />
     <Content Include="images\individual-banner.jpg" />
     <Content Include="images\logo.png" />
