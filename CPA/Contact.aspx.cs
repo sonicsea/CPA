@@ -8,7 +8,14 @@ namespace CPA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Browser["IsMobileDevice"] == "true")
+            {
 
+                string mobileSite = System.Configuration.ConfigurationManager.AppSettings["Mobile_Site"].ToString() + "/Home/Contact";
+
+
+                Response.Redirect(mobileSite, false);
+            }
         }
 
         protected void btnSendEmail_Click(object sender, EventArgs e)

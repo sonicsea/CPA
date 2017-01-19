@@ -278,6 +278,7 @@
     </Content>
     <Content Include="Layout.Master" />
     <Content Include="css\superfish\superfish.css.bak" />
+    <None Include="Properties\PublishProfiles\CPA Local.pubxml" />
     <None Include="Properties\PublishProfiles\CPA.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
